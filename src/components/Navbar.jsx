@@ -11,7 +11,7 @@ const Navbar = () => {
   let menuActive = show ? "left-0" : "-left-full";
 
   return (
-    <div className="navbar fixed w-full transition-all py-4 shadow shadow-slate-300">
+    <div className="navbar fixed w-full transition-all py-4 bg-white shadow shadow-slate-300">
       <div className="container mx-auto px-4">
         <div className="navbar-box flex items-center justify-between">
             <div className="logo">
