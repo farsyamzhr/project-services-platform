@@ -27,23 +27,23 @@ const Navbar = () => {
                 <i className="ri-close-line text-end text-3xl md:hidden block" onClick={closeMenuBar}></i>
                 <li className="flex items-center gap-3">
                     <i className="ri-home-2-line text-3xl md:hidden block"></i>
-                    <a href="" className="font-medium opacity-75">Beranda</a>
+                    <a href="#home" className="font-medium opacity-75">Beranda</a>
                 </li>
                 <li className="flex items-center gap-3">
                     <i className="ri-information-line text-3xl md:hidden block"></i>
-                    <a href="" className="font-medium opacity-75">Tentang Kami</a>
+                    <a href="#about" className="font-medium opacity-75">Tentang Kami</a>
                 </li>
                 <li className="flex items-center gap-3">
                     <i className="ri-settings-3-line text-3xl md:hidden block"></i>
-                    <a href="" className="font-medium opacity-75">Layanan</a>
+                    <a href="#services" className="font-medium opacity-75">Layanan</a>
                 </li>
                 <li className="flex items-center gap-3">
                     <i className="ri-image-line text-3xl md:hidden block"></i>
-                    <a href="" className="font-medium opacity-75">Proyek</a>
+                    <a href="#projects" className="font-medium opacity-75">Proyek</a>
                 </li>
             </ul>
             <div className="social flex items-center gap-2">
-                <a href="#" className="bg-sky-400 px-5 py-2 rounded-full text-white font-bold hover:bg-sky-500 transition-all">Social Media</a>
+                <a href="#footer" className="bg-sky-400 px-5 py-2 rounded-full text-white font-bold hover:bg-sky-500 transition-all">Social Media</a>
                 <i className="ri-menu-line text-3xl md:hidden block" onClick={menuBarClick}></i>
             </div>
         </div>

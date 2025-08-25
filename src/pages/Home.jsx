@@ -21,7 +21,7 @@ function Home() {
         </div>
 
         {/* about */}
-        <div className="about grid md:grid-cols-2 grid-cols-1 items-center md:gap-20 gap-10 md:pt-20 pt-32">
+        <div id="about" className="about grid md:grid-cols-2 grid-cols-1 items-center md:gap-20 gap-10 md:pt-20 pt-32">
           <div className="box md:order-1 order-2">
             <img src={HeroImage} alt="" className="lg:w-[500] w-[400px] md:m-0 mx-auto"/>
           </div>
@@ -36,7 +36,7 @@ function Home() {
         </div>
 
         {/* services */}
-        <div className="services pt-32">
+        <div id="services" className="services pt-32">
           <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">Layanan</h1>
           <p className="text-center">
             Kami menyediakan berbagai solusi untuk mendukung bisnis Anda tumbuh secara digital.
@@ -73,7 +73,7 @@ function Home() {
         </div>
 
         {/* projects */}
-        <div className="projects pt-32">
+        <div id="projects" className="projects pt-32">
           <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">Project</h1>
           <p className="text-center">Project Unggulan kami, yang telah kami selesaikan untuk berbagai jenis bisnis. Kami fokus pada desain modern, kecepatan, dan pengalaman pengguna yang optimal.</p>
           <div className="projects-box pt-12 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 text-black">
